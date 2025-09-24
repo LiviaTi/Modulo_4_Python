@@ -1,7 +1,10 @@
+import sys
 
-def __init__(self, name: str, age: int)
-    self.name = name
-    self.age = age
+class Person:
+    def __init__(self, name: str, age: int) -> None:
+        self.name = name
+        self.age = age
 
     def birthday(self)->None:
-        self.age = age + 1
+        self.age += 1
+        return
