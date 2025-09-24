@@ -1,0 +1,7 @@
+
+def __init__(self, name: str, age: int)
+    self.name = name
+    self.age = age
+
+    def birthday(self)->None:
+        self.age = age + 1
