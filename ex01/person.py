@@ -3,11 +3,5 @@ class Person:
         self.name = name
         self.age = age
 
-    def birthday(self)->None:
+    def birthday(self)-> int:
         self.age += 1
-        return
-
-p = Person("Livia", 24)
-print(p.name,p.age)
-p.birthday()
-print(p.name,p.age)
