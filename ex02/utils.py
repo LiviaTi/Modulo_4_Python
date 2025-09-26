@@ -1,5 +1,6 @@
 
 def format_cents(num: int) -> str:
+    """ Função que transforma os inteiros em string"""
     if num >= 0:
         prefix = "[+] R$ "
     else:
